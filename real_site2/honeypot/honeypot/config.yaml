@@ -1,0 +1,12 @@
+honeypot:
+  ssh:
+    enabled: true
+    port: 2222
+  http:
+    enabled: true
+    port: 8081
+  ftp:
+    enabled: true
+    port: 2121
+logging:
+  log_file: "./logs/attacks.json"
